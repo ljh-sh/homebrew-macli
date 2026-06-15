@@ -12,11 +12,8 @@ class Macli < Formula
   sha256 "1161d2f373d24163fb4318c4d474cc4d286ba07a5416252aa45d642e7c1e4ba0"
   license "MIT"
 
-  # No dependencies — macli links only system frameworks.
   def install
     # Tarball internal layout: bin/macli
-    # Use Dir.glob to avoid Pathname-relative resolution issues
-    File.exist?("bin/macli") || odie "Expected bin/macli in tarball, found: #{Dir.children(Dir.pwd).inspect}"
     bin.install "bin/macli"
   end
 
