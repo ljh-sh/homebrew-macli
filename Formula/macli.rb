@@ -14,8 +14,9 @@ class Macli < Formula
 
   def install
     # Tarball internal layout: bin/macli
-    # Homebrew 6 may not chdir to buildpath automatically; use explicit path
-    bin.install (buildpath/"bin/macli")
+    # Homebrew 6 auto-extracts into buildpath which points at bin/ subdir
+    # (likely because our tarball top-level dir is "bin")
+    bin.install "macli"
   end
 
   def post_install
