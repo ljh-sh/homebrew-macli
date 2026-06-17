@@ -7,8 +7,8 @@
 class Macli < Formula
   desc "macOS system tools CLI — only what shell/python can't do"
   homepage "https://github.com/ljh-sh/macli"
-  url "https://github.com/ljh-sh/macli/releases/download/v0.1.0/macli-darwin-universal.tar.xz"
-  sha256 "5f5f806c905f9c31c0acde2f184ce903062881a73c3eedefd1dff6d576327527"
+  url "https://github.com/ljh-sh/macli/releases/download/v0.2.0/macli-darwin-universal.tar.xz"
+  sha256 "22e26a6e7d43ce39ab792e31215d1cf050ed1761def3c3eb45fbd554af006cd9"
   license "Apache-2.0"
 
   def install
