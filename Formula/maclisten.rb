@@ -1,11 +1,11 @@
 # frozen_string_literal: true
 
-# Formula for maclisten — lightweight macOS ASR CLI.
+# Formula for maclisten — private, lightweight macOS ASR CLI.
 # Source: https://github.com/ljh-sh/maclisten
 # Uses universal binary (arm64 + x86_64 in single Mach-O) so one tarball
 # serves both Apple Silicon and Intel Macs.
 class Maclisten < Formula
-  desc "Lightweight macOS ASR CLI"
+  desc "Private, lightweight macOS ASR CLI"
   homepage "https://github.com/ljh-sh/maclisten"
   url "https://github.com/ljh-sh/maclisten/releases/download/v0.2.0/maclisten-darwin-universal.tar.xz"
   sha256 "26a78dd25126b74903af6b30710972b0ece328778a703270ffaa5bae77095d36"
